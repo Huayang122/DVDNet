@@ -9,10 +9,8 @@ This repository contains information and demo links for DVDNet, a dual-view deco
 
 Demo Videos
 Demo Video 1 – Model Performance Comparison Visualization
-This video presents a visual comparison of model performance across different methods on the DeepGlobe and RoadTracer datasets.
 Watch Demo1: https://youtu.be/_yUiXvgdzcE
 Demo Video 2 – Using Existing Models on Randomly Captured Google Maps Images
-This video shows the prediction results of existing mainstream trained models on randomly captured satellite images from Google Maps, demonstrating the effectiveness of DVDNet.
 Watch Demo2: https://youtu.be/JqB4Uaupq64
 
 Contact
