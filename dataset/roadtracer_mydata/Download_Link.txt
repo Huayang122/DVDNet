@@ -1,0 +1,14 @@
+Dataset Description
+
+This project uses the publicly available RoadTracer dataset provided by the authors of the following paper:
+
+X. Wang, L. Wang, W. Huang, Y. Liu, S. Zhang, and X. Zhong,
+"Local–Global Sparse Transformer for Road Extraction From Remote Sensing Imagery,"
+IEEE Transactions on Geoscience and Remote Sensing, vol. 63, pp. 1–10, 2025,
+Art no. 5642410, doi: 10.1109/TGRS.2025.3598813.
+
+Dataset Download
+The dataset download link is officially provided by the original authors:
+https://pan.baidu.com/s/1HYdqUCERI3JuBQkrI3eEzA?pwd=92rv
+
+For our experiments, the 4,800 downloaded images were re-partitioned for experimental use.

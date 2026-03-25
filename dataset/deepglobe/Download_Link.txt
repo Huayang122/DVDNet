@@ -1,0 +1,14 @@
+Dataset Description
+
+Dataset Download
+The dataset is officially released as part of the DeepGlobe Challenge and can be accessed via:
+https://competitions.codalab.org/competitions/18467
+Alternatively, a mirrored version is available on Kaggle:
+https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset
+
+Dataset Details
+The dataset comprises 8,570 high-resolution remote sensing images. Among them:
+- 6,226 images are provided with annotations
+- 1,243 validation images and 1,101 test images are without annotations
+
+For our experiments, the 6,226 annotated images were re-partitioned for experimental purposes.
