@@ -1,43 +1,32 @@
-It Takes Two: A Dual-View Decoding Network for Road Extraction
-
-Status: Manuscript under submission
-
-This repository contains information and demo links for DVDNet, a dual-view decoding network for road extraction from high-resolution remote sensing images.
-
-Demo Video 1 – Model Performance Comparison Visualization
-
-Watch Demo1: https://youtu.be/_yUiXvgdzcE
-
-Demo Video 2 – Using Existing Models on Randomly Captured Google Maps Images
-
-Watch Demo2: https://youtu.be/JqB4Uaupq64
-
-
-⚠️ Note: The associated manuscript is currently under submission. The code will be released after the paper is accepted.
-
-⚠️ Note: In demo videos or early code, the network name DDMDNet may appear; this is the previous name before renaming to DVDNet.
-
-
-Contact
-
-Renbao Lian (Corresponding Author): luoshao@163.com
-
-
- DVDNet: A Dual-View Decoding Network for Road Extraction
+# DVDNet: A Dual-View Decoding Network for Road Extraction
 
 Official PyTorch implementation of:
 
-> **DVDNet: A Dual-View Decoding Network for Road Extraction**  
-> Huayang Zhang, Shaohua Zheng, Renbao Lian*  
-> * Corresponding author. Email: lrb@fjjxu.edu.cn
+> **DVDNet: A Dual-View Decoding Network for Road Extraction**
+> Huayang Zhang, Shaohua Zheng, Renbao Lian*
+> *Corresponding author. Email: [lrb@fjjxu.edu.cn](mailto:lrb@fjjxu.edu.cn)
 
 ## Overview
 
 DVDNet is a deep learning framework for road extraction from high-resolution remote sensing imagery. It is designed to improve the balance between local detail preservation and global contextual understanding through three key components:
 
-- **Multi-Branch Feature Guidance Module (MFGM):** Extracts multi-scale, direction-sensitive, and context-enhanced features through three parallel branches.
-- **Heterogeneous Dual-View Collaborative Decoder (HDCD):** Separates local geometric refinement and global contextual reasoning into two complementary decoding paths: the **Local Refinement Path (LRP)** and the **Global Coherence Path (GCP)**.
-- **Path Importance Self-Evaluation Module (PISM):** Adaptively fuses the representations from the two decoding paths using sample-dependent weights.
+* **Multi-Branch Feature Guidance Module (MFGM):** Extracts multi-scale, direction-sensitive, and context-enhanced features through three parallel branches.
+* **Heterogeneous Dual-View Collaborative Decoder (HDCD):** Separates local geometric refinement and global contextual reasoning into two complementary decoding paths: the **Local Refinement Path (LRP)** and the **Global Coherence Path (GCP)**.
+* **Path Importance Self-Evaluation Module (PISM):** Adaptively fuses the representations from the two decoding paths using sample-dependent weights.
+
+## Demo Videos
+
+### Demo Video 1 – Model Performance Comparison Visualization
+
+Watch Demo 1:
+https://youtu.be/_yUiXvgdzcE
+
+### Demo Video 2 – Using Existing Models on Randomly Captured Google Maps Images
+
+Watch Demo 2:
+https://youtu.be/JqB4Uaupq64
+
+> **Note:** In some demo videos or early code versions, the network name **DDMDNet** may appear. DDMDNet was the previous name of the model before it was renamed to **DVDNet**.
 
 ## Project Structure
 
@@ -62,7 +51,7 @@ DVDNet/
 │   └── roadtracer_mydata/
 ├── weights/                    # Trained model weights
 ├── logs/                       # Training logs
-├── results/                     #output segmentation masks
+├── results/                    # Output segmentation masks
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -70,10 +59,10 @@ DVDNet/
 
 ## Requirements
 
-- Python 3.10 or later
-- PyTorch 2.8 or later
-- CUDA 11.8 or later (recommended)
-- NVIDIA GPU with at least 16 GB of memory
+* Python 3.10 or later
+* PyTorch 2.8 or later
+* CUDA 11.8 or later (recommended)
+* NVIDIA GPU with at least 16 GB of memory
 
 ## Installation
 
@@ -181,20 +170,19 @@ python evaluate.py
 
 The corresponding complexity evaluation is executed automatically through `param_gflops_eval`.
 
-
 ## Code and Data Availability
 
-The source code will be publicly available at:
+The complete source code is publicly available on GitHub:
 
 https://github.com/Huayang122/DVDNet
 
-An archived version of this code will also be deposited in Zenodo for long-term preservation and DOI assignment.
+A fixed version of the source code used in the experiments reported in this paper is archived on Zenodo for long-term preservation and citation:
 
-The DeepGlobe and RoadTracer datasets are publicly available benchmark datasets and are not redistributed with this repository. Users should obtain the datasets from their respective official sources and comply with the applicable dataset licenses and terms of use.
+https://doi.org/10.5281/zenodo.22209544
 
-This Zenodo deposit preserves a fixed snapshot of the source code used in the experiments reported in this paper.
-Ongoing bug fixes and future developments will be maintained in the GitHub repository.
+The **DeepGlobe** and **RoadTracer** datasets are publicly available benchmark datasets and are not redistributed with this repository. Users should obtain the datasets from their respective official sources and comply with the applicable dataset licenses and terms of use.
 
+The Zenodo record preserves a fixed snapshot of the source code corresponding to the reported experimental results, while ongoing bug fixes, updates, and future developments will be maintained in the GitHub repository.
 
 ## License
 
