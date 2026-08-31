@@ -180,9 +180,12 @@ A fixed snapshot of the source code used in the experiments reported in this pap
 
 https://doi.org/10.5281/zenodo.22209544
 
+Upon acceptance of the manuscript, the GitHub repository will also include the trained model weights, configuration files, and data preprocessing scripts to facilitate the reproduction and verification of the experimental results reported in this paper.
+
 The DeepGlobe and RoadTracer datasets are publicly available benchmark datasets and are not redistributed with this repository. Users should obtain the datasets from their respective official sources and comply with the applicable dataset licenses and terms of use.
 
-The Zenodo deposit preserves a fixed snapshot of the source code corresponding to the experimental results reported in this paper. Following acceptance, the complete source code will be released on GitHub, where ongoing bug fixes, updates, and future developments will be maintained.
+The Zenodo deposit preserves a fixed snapshot of the source code corresponding to the experimental results reported in this paper. Following acceptance, the complete source code and supporting resources will be released on GitHub, where ongoing bug fixes, updates, and future developments will be maintained.
+
 
 
 ## License
