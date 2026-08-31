@@ -172,17 +172,18 @@ The corresponding complexity evaluation is executed automatically through `param
 
 ## Code and Data Availability
 
-The complete source code is publicly available on GitHub:
+The source code will be publicly released on GitHub after the associated manuscript is accepted:
 
 https://github.com/Huayang122/DVDNet
 
-A fixed version of the source code used in the experiments reported in this paper is archived on Zenodo for long-term preservation and citation:
+A fixed snapshot of the source code used in the experiments reported in this paper has been archived on Zenodo for long-term preservation and is assigned the DOI:
 
 https://doi.org/10.5281/zenodo.22209544
 
-The **DeepGlobe** and **RoadTracer** datasets are publicly available benchmark datasets and are not redistributed with this repository. Users should obtain the datasets from their respective official sources and comply with the applicable dataset licenses and terms of use.
+The DeepGlobe and RoadTracer datasets are publicly available benchmark datasets and are not redistributed with this repository. Users should obtain the datasets from their respective official sources and comply with the applicable dataset licenses and terms of use.
 
-The Zenodo record preserves a fixed snapshot of the source code corresponding to the reported experimental results, while ongoing bug fixes, updates, and future developments will be maintained in the GitHub repository.
+The Zenodo deposit preserves a fixed snapshot of the source code corresponding to the experimental results reported in this paper. Following acceptance, the complete source code will be released on GitHub, where ongoing bug fixes, updates, and future developments will be maintained.
+
 
 ## License
 
