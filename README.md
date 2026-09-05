@@ -61,7 +61,7 @@ DVDNet/
 
 * Python 3.10 or later
 * PyTorch 2.8 or later
-* CUDA 11.8 or later (recommended)
+* CUDA 12.6 or later (recommended)
 * NVIDIA GPU with at least 16 GB of memory
 
 ## Installation
