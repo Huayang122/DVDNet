@@ -172,15 +172,15 @@ The corresponding complexity evaluation is executed automatically through `param
 
 ## Reproducibility and Maintenance
 
-This repository is maintained as the accompanying code repository for the published work.
+This repository is maintained as the official code repository accompanying the published work.
 
-Every effort has been made to ensure consistency between the manuscript, the implementation, and the experimental materials. Nevertheless, minor discrepancies or inadvertent inaccuracies may occasionally be identified in a published research work, particularly in textual descriptions or supporting details.
+Although we have made every effort to ensure the accuracy and consistency of the published manuscript, source code, and associated experimental materials, minor omissions, inconsistencies, or unintended errors may still exist due to the complexity of research activities and the limitations of manual preparation.
 
-To support transparent and reproducible research, we will continue to maintain this repository and update the relevant materials when necessary. Corrections, clarifications, and supplementary information will be incorporated into the repository as appropriate when issues are identified.
+We value transparency and reproducibility in scientific research. The materials provided in this repository are intended to facilitate understanding and reproduction of the implementation described in the paper. Any additional clarifications or supplementary information, if necessary, will be documented here appropriately.
 
-The released source code and associated experimental materials are intended to provide a practical reference for understanding and reproducing the implementation described in the paper. The repository will also serve as the maintained location for subsequent updates and corrections related to the implementation.
+The GitHub repository serves as the maintained version of the project, while the corresponding Zenodo record provides a fixed archival snapshot of the code associated with the reported experiments.
 
-We appreciate the understanding of readers and remain committed to keeping the materials in this repository accurate, transparent, and up to date.
+We appreciate the understanding and support of the research community and remain committed to providing accurate and transparent research materials.
 
 ## Code and Data Availability
 
