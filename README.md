@@ -170,23 +170,33 @@ python evaluate.py
 
 The corresponding complexity evaluation is executed automatically through `param_gflops_eval`.
 
+## Reproducibility and Maintenance
+
+This repository is maintained as the accompanying code repository for the published work.
+
+Every effort has been made to ensure consistency between the manuscript, the implementation, and the experimental materials. Nevertheless, minor discrepancies or inadvertent inaccuracies may occasionally be identified in a published research work, particularly in textual descriptions or supporting details.
+
+To support transparent and reproducible research, we will continue to maintain this repository and update the relevant materials when necessary. Corrections, clarifications, and supplementary information will be incorporated into the repository as appropriate when issues are identified.
+
+The released source code and associated experimental materials are intended to provide a practical reference for understanding and reproducing the implementation described in the paper. The repository will also serve as the maintained location for subsequent updates and corrections related to the implementation.
+
+We appreciate the understanding of readers and remain committed to keeping the materials in this repository accurate, transparent, and up to date.
+
 ## Code and Data Availability
 
-The source code will be publicly released on GitHub after the associated manuscript is accepted:
+The source code and supporting materials for DVDNet are publicly available in this repository:
 
 https://github.com/Huayang122/DVDNet
 
-A fixed snapshot of the source code used in the experiments reported in this paper has been archived on Zenodo for long-term preservation and is assigned the DOI:
+A fixed snapshot of the source code used for the experiments reported in the paper has also been archived on Zenodo for long-term preservation:
 
 https://doi.org/10.5281/zenodo.22209544
 
-Upon acceptance of the manuscript, the GitHub repository will also include the trained model weights, configuration files, and data preprocessing scripts to facilitate the reproduction and verification of the experimental results reported in this paper.
+The repository includes the source code and supporting materials necessary for reproducing the implementation and experimental procedures described in the paper. The repository will be continuously maintained, and relevant updates, corrections, and supplementary materials will be added when necessary.
 
 The DeepGlobe and RoadTracer datasets are publicly available benchmark datasets and are not redistributed with this repository. Users should obtain the datasets from their respective official sources and comply with the applicable dataset licenses and terms of use.
 
-The Zenodo deposit preserves a fixed snapshot of the source code corresponding to the experimental results reported in this paper. Following acceptance, the complete source code and supporting resources will be released on GitHub, where ongoing bug fixes, updates, and future developments will be maintained.
-
-
+The Zenodo record provides a fixed archival snapshot of the code corresponding to the reported experiments, while this GitHub repository serves as the actively maintained version of the project.
 
 ## License
 
