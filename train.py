@@ -406,12 +406,12 @@ def train(model_name, train_dataset_method, val_dataset_method, test_dataset_met
             solver.save('weights/' + NAME + '_best_train_checkpoint.pt', epoch=epoch,
                         loss=train_epoch_loss, save_full_checkpoint=True)
             print(f'[Best Train Model] Epoch {epoch}: train_loss improved to {train_epoch_loss:.6f}', file=mylog)
-        
+        '''
         if val_loss < best_val_loss:
             best_val_loss = val_loss
             solver.save('weights/' + NAME + '_best_val_loss.pt', save_full_checkpoint=False)
             print(f'[Best Val Loss Model] Epoch {epoch}: val_loss improved to {val_loss:.6f}', file=mylog)
-        
+        '''
         if test_loss < best_test_loss:
             best_test_loss = test_loss
             solver.save('weights/' + NAME + '_best_test_loss.pt', save_full_checkpoint=False)
